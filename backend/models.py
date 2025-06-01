@@ -10,8 +10,6 @@ class Task:
     def __repr__(self):
         return f"<Task(name={self.task_name}, time={self.task_time}, description={self.task_description})>"
 
-
-
 # Define the Schedule Class
 class Schedule:
     def __init__(self, schedule_name: str):
